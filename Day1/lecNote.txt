@@ -7,6 +7,15 @@
 ==> show commits with all details (id , msg , author) ==> git log
 ==> show commits with  (id , msg ) ==> git log --oneline
 
+===> save commit to last commit
+===> add (git add fileName || .)
+==> git commit --amend
+        =====> core deitor VS code 
+        	
+git config --global core.editor "code --wait"
+
+
+
 working Area          Staging Area             local           remote
 unTracked files    
               ====> git add fileName 
@@ -18,4 +27,7 @@ unTracked files
 ===================================> git commit -am "msg"
 
 
+             <==================
+              git reset 
 
+              
