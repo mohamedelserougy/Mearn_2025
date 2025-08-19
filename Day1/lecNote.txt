@@ -13,6 +13,8 @@ unTracked files
                                    ===========>
                                     -m ==> message
                                    git commit -m "message"
+=================================> git commit -a -m "mes" (file add (at least one time))
+
 
 
 
