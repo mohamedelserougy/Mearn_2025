@@ -1,0 +1,5 @@
+.env
+Day1/test.txt
+*.pdf
+imgs/*.{jpeg,png,gif}
+imgs/*.png
