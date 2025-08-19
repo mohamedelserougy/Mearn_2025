@@ -15,3 +15,4 @@
 
 12. configration make vs as core editor [config vs ](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Setup-and-Config) 
 
+13. README.md file example [README.md](https://github.com/facebook/react)
