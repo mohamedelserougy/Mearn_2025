@@ -8,11 +8,9 @@ Mearn Tarck Names :
 7 : Ibrahim Yasser
 8: Ruba Ismail Sliem
 9: ahmed olwy 
-7 : Ibrahim Yasser
-8: Ruba Ismail Sliem
-9: yousef shaban saleh
-10: hazem ahmed abdelsamei khattab
-11 : Ibrahim Samir Ibrahim Jibril
-12: Ahmed olwy
-13: Magdy Atef Ayoub
-14: Sefein Kameil Zaky
+10: yousef shaban saleh
+11: hazem ahmed abdelsamei khattab
+12 : Ibrahim Samir Ibrahim Jibril
+13: Ahmed olwy
+14: Magdy Atef Ayoub
+15: Sefein Kameil Zaky
