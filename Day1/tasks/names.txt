@@ -5,11 +5,10 @@ Mearn Tarck Names :
 4 : said magdy said elamy
 5: Ahmed magdy hussin 
 6- Mohamad Hesham
-<<<<<<< HEAD
-6- Mohamad Hesham
 7 : Ibrahim Yasser
 8: Ruba Ismail Sliem
 9: ahmed olwy 
+<<<<<<< HEAD
 7 : Ibrahim Yasser
 8: Ruba Ismail Sliem
 9: yousef shaban saleh
@@ -21,4 +20,15 @@ Mearn Tarck Names :
 12: Ahmed olwy
 13: Magdy Atef Ayoub
 
-15 : Muhamed Hany Muhamed Abouzaid
+=======
+10: yousef shaban saleh
+11: hazem ahmed abdelsamei khattab
+12 : Ibrahim Samir Ibrahim Jibril
+13: Ahmed olwy
+14: Magdy Atef Ayoub
+15: Sefein Kameil Zaky
+>>>>>>> a7fdc69344a09a123f10ed9e8de949a7c12956b0
+
+
+
+17 : Muhamed Hany Muhamed Abouzaid
