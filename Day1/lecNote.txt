@@ -3,6 +3,8 @@
 
 
 =============> git init ===> initialization git (create local DB ==> Reporistory (Repo))
+==> show status of files ===> git status
+==> show commits ==> git log
 
 working Area          Staging Area             local           remote
 unTracked files    
@@ -11,3 +13,6 @@ unTracked files
                                    ===========>
                                     -m ==> message
                                    git commit -m "message"
+
+
+
