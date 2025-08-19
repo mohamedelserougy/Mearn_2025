@@ -4,7 +4,8 @@
 
 =============> git init ===> initialization git (create local DB ==> Reporistory (Repo))
 ==> show status of files ===> git status
-==> show commits ==> git log
+==> show commits with all details (id , msg , author) ==> git log
+==> show commits with  (id , msg ) ==> git log --oneline
 
 working Area          Staging Area             local           remote
 unTracked files    
@@ -14,7 +15,7 @@ unTracked files
                                     -m ==> message
                                    git commit -m "message"
 =================================> git commit -a -m "mes" (file add (at least one time))
-
+===================================> git commit -am "msg"
 
 
 
