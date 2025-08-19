@@ -1,0 +1,13 @@
+===> History Of Git
+==>> Status of commits (git)
+
+
+=============> git init ===> initialization git (create local DB ==> Reporistory (Repo))
+
+working Area          Staging Area             local           remote
+unTracked files    
+              ====> git add fileName 
+              ====> git add . || *
+                                   ===========>
+                                    -m ==> message
+                                   git commit -m "message"
