@@ -4,16 +4,8 @@ Mearn Tarck Names :
 3 : Mariem Mohamed Atef Elgendy
 4 : said magdy said elamy
 5: Ahmed magdy hussin 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 6- Mohamad Hesham
->>>>>>> 2fd079d598cd4a3f895d783ab44aafe18492c037
-
-
-=======
-6- Mohamad Hesham7 : Ibrahim Yasser
->>>>>>> d9bb17aca1dd75be111494d2728fa1d126594520
-
+6- Mohamad Hesham
+7 : Ibrahim Yasser
 8: Ruba Ismail Sliem
+9: ahmed olwy 
