@@ -14,7 +14,6 @@ Mearn Tarck Names :
 9: yousef shaban saleh
 10: hazem ahmed abdelsamei khattab
 11 : Ibrahim Samir Ibrahim Jibril
-<<<<<<< HEAD
 
 
 =======
@@ -26,7 +25,6 @@ Mearn Tarck Names :
 13: Magdy Atef Ayoub
 14: Sefein Kameil Zaky
 15: Ahmed Ibrahim Zidan
->>>>>>> b90686c41dacb0f1d7af16f8afca8a2c21e0648c
 =======
 10: yousef shaban saleh
 11: hazem ahmed abdelsamei khattab
@@ -34,11 +32,8 @@ Mearn Tarck Names :
 13: Ahmed olwy
 14: Magdy Atef Ayoub
 15: Sefein Kameil Zaky
->>>>>>> a7fdc69344a09a123f10ed9e8de949a7c12956b0
-<<<<<<< HEAD
 
 
 
 17 : Muhamed Hany Muhamed Abouzaid
 =======
->>>>>>> b90686c41dacb0f1d7af16f8afca8a2c21e0648c
