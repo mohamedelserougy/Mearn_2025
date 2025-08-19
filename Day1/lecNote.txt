@@ -1,18 +1,17 @@
 ===> History Of Git
-==>> Status of commits (git)
-
+==>> Status  (git)   ========> Remote
+  
 
 =============> git init ===> initialization git (create local DB ==> Reporistory (Repo))
 ==> show status of files ===> git status
 ==> show commits with all details (id , msg , author) ==> git log
 ==> show commits with  (id , msg ) ==> git log --oneline
-
+====> commit on specific file ===>  git commit pathfile -m "msg"  
 ===> save commit to last commit
 ===> add (git add fileName || .)
 ==> git commit --amend
-        =====> core deitor VS code 
-        	
-git config --global core.editor "code --wait"
+
+=====> core deitor VS code ===>git config --global core.editor "code --wait"
 
 
 
@@ -29,5 +28,7 @@ unTracked files
 
              <==================
               git reset 
+
+
 
               
