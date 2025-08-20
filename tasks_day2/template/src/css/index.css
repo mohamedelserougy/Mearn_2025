@@ -1,4 +1,14 @@
-    .newsletter {
+<<<<<<< HEAD
+            .img-fluid {
+  max-width: 100%;       
+  height: auto;          
+  border-radius: 12px;   
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); 
+  object-fit: cover;     
+}
+
+
+.newsletter {
         background: #1db9aa;
         color: white;
         padding: 40px 20px;
@@ -49,3 +59,7 @@
         cursor: pointer;
         font-size: 16px;
     }
+=======
+
+
+>>>>>>> olwy-header
