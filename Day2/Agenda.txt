@@ -55,8 +55,7 @@ move from branch to another branch with out add or commit changes
  4- delete all stashes ==> git stash clear
  5- delete specific stash ==> git stash drop id_stash
 
-================================
------------- test
 
-===> organization   ===> self study
-===> fork   ===> self study
+
+===> organization   ===> self study  ===>  
+===> fork   ===> self study      ==> clone repo 
