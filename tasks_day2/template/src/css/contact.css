@@ -1,0 +1,20 @@
+.fst-footer-section {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.fst-content {
+  height: 150px;
+}
+.input-container {
+  border-bottom: 1px solid #fff;
+}
+.fst-footer-section input {
+  background-color: transparent;
+  border: 0;
+  padding: 8px 0px;
+  outline: none;
+  width: 300px;
+}
+.fst-footer-section input::placeholder {
+  color: #fff;
+}
