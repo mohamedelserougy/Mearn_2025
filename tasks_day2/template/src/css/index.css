@@ -1,3 +1,49 @@
+/* top wrap */
+.top-wrap {
+  background: transparent !important;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 1.2em 0;
+}
+.top-wrap .con .icon span {
+  color: #fff;
+  font-size: 38px;
+  line-height: 1;
+}
+.top-wrap .con .text {
+  padding-left: 10px;
+}
+.top-wrap .con .text span,
+.top-wrap .con .text strong {
+  display: block;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.top-wrap .social-media {
+  display: inline-block;
+}
+
+.top-wrap .social-media p a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.top-wrap .social-media p a span {
+  color: #1eb2a6;
+}
+.top-wrap .social-media p a:hover {
+  background: #1eb2a6;
+}
+.top-wrap .social-media p a:hover span {
+  color: #fff;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
