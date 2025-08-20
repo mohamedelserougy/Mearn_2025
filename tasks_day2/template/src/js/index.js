@@ -14,3 +14,16 @@ document.querySelectorAll(".number").forEach((num) => {
     }
   }, 30);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide(".splide", {
+    type: "loop",
+    perPage: 3,
+    gap: "20px",
+    arrows: false,
+    focus: "center",
+    autoScroll: {
+      speed: 0.5,
+    },
+  }).mount(window.splide.Extensions);
+});
