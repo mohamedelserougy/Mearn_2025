@@ -1,3 +1,20 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.newsletter {
+  background: #1db9aa;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
 /* Make only this section have the background */
 .stats-section {
   background: url("./../imgs/bg_3.jpg.webp") center/cover no-repeat;
@@ -81,6 +98,14 @@
 
 .newsletter-form input::placeholder {
   color: rgba(255, 255, 255, 0.8);
+}
+
+.newsletter-form button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .newsletter-form button {
