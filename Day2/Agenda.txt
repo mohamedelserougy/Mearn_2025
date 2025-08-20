@@ -3,13 +3,22 @@
 * list branches ====> git branch
 * move (switch) branch ==> git switch branchName
 
-=============> Merge (local)
+=============> Merge (local) (navbar- master)
 
 1- switch branch that you want to merge with master
 * git switch feature/navbar-links
+* git status
 
 2- merge ==> 
 * git merge master
+* if conflict ==> solve conflict (add , commit)
+* if no conflicts ==> switch to master
+
+3- git switch master
+* git merge navbar
+* if conflict ==> solve conflict (add , commit)
+* if no conflicts ==> make what u want
+
 
 =====> pull request
 ===> stash ===> 
