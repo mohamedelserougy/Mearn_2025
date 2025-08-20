@@ -1,0 +1,179 @@
+.footer {
+	padding: 5rem 0 0;
+	background: #eee;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer .footerLogo h2 {
+	margin-bottom: 50px;
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+.footer .footerLogo .logo a {
+	text-transform: uppercase;
+	position: relative;
+}
+
+.footer .footerLogo .logo p {
+	color: #111;
+	font-size: 1.7rem;
+	font-weight: 800;
+}
+
+.footer .footerLogo .logo a span {
+	position: absolute;
+	color: #1eb2a6;
+	font-weight: 600;
+	font-size: 0.7rem;
+}
+
+.footer .footerLogo p {
+	color: #aaa;
+	letter-spacing: 0.3px;
+}
+
+.footer .footerLogo ul {
+	display: flex;
+}
+
+.footer .footerLogo ul li {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 10px 5px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #1eb2a6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: #1eb2a6;
+}
+
+.footer .footerLogo ul li a {
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.footer .footerLogo ul li:hover {
+	background-color: transparent;
+}
+
+.footer .footerLogo ul li:hover a {
+	color: #1eb2a6;
+}
+
+.footer .footerLinks li {
+	margin: 1rem 0;
+}
+
+.footer .footerLinks i {
+	color: #1eb2a6;
+	font-size: 0.8rem;
+}
+
+.footer .footerLinks a {
+	color: #666;
+	font-size: 1rem;
+}
+
+.footer .footerLinks h2,
+.footer .footerPosts h2,
+.footer .footerQue h2 {
+	margin-bottom: 30px;
+}
+
+.footer .footerPosts .imageList .blog-img {
+	display: block;
+	height: 50px;
+	width: 50px;
+}
+
+.footer .footerPosts .imageList .blog-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15%;
+}
+
+.footer .footerPosts .imageList .text {
+	width: calc(100% - 50px);
+	padding-left: 20px;
+}
+
+.footer .footerPosts .imageList .text .heading {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.footer .footerPosts .imageList .text .heading a {
+	color: #666666;
+}
+
+.footer .footerPosts .imageList .text .heading a:hover,
+.footer .footerPosts .imageList .text .heading a:active,
+.footer .footerPosts .imageList .text .heading a:focus {
+	color: #1eb2a6;
+}
+
+.footer .footerPosts .imageList .text .meta > div {
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+.footer .footerPosts .imageList .text .meta > div a {
+	color: #1eb2a6;
+}
+
+.footer .footerQueContent ul {
+	padding: 0;
+}
+
+.footer .footerQueContent ul li {
+	font-size: 15px;
+}
+
+.footer .footerQueContent ul li,
+.footer .footerQueContent ul li > a {
+	display: table;
+	line-height: 1.5;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+.footer .footerQueContent ul li span {
+	color: #1eb2a6;
+}
+
+.footer .footerQueContent ul li .text {
+	display: table-cell;
+	vertical-align: top;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.footer .footerQueContent ul li .icon {
+	width: 40px;
+	font-size: 15px;
+	padding-top: 2px;
+	color: #1eb2a6 !important;
+}
+
+.footer .copyRight {
+	background: #e9e9e9;
+}
+
+.footer .copyRight p {
+	color: #aaa;
+}
+
+.footer .copyRight i {
+	color: rgb(161, 7, 7);
+}
+
+.footer .copyRight a {
+	color: #1eb2a6;
+}
