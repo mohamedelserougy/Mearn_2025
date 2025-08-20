@@ -30,8 +30,28 @@ Delete branch
 ***  switch to another branch
 *** git push origin -d branchName
 
+===============================> pull request after pull in remote
+** git switch  branch
+** git status
+** git pull origin branchRemote  
+** check conflict (deal)
+** ----------> push on remote branch
+** git pull origin master
+** check conflict (deal)
+** git add .
+** commit -m "msg"
+** git push origin u-branch
+-------------- start cooding 
+==============================================>
 
-=====> pull request
+
 ===> stash ===> 
+move from branch to another branch with out add or commit changes
+**  create stash ==> git stash
+** show in stash ===>
+ 1- git stash pop (remove from stash list)
+ 2- git stash apply (show data in stash + save stash list)
+
+================================
 ===> organization   ===> self study
 ===> fork   ===> self study
