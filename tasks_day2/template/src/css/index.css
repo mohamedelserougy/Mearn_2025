@@ -1,3 +1,49 @@
+/* top wrap */
+.top-wrap {
+  background: transparent !important;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 1.2em 0;
+}
+.top-wrap .con .icon span {
+  color: #fff;
+  font-size: 38px;
+  line-height: 1;
+}
+.top-wrap .con .text {
+  padding-left: 10px;
+}
+.top-wrap .con .text span,
+.top-wrap .con .text strong {
+  display: block;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.top-wrap .social-media {
+  display: inline-block;
+}
+
+.top-wrap .social-media p a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.top-wrap .social-media p a span {
+  color: #1eb2a6;
+}
+.top-wrap .social-media p a:hover {
+  background: #1eb2a6;
+}
+.top-wrap .social-media p a:hover span {
+  color: #fff;
+}
+
 /* global style */
 :root {
   --bs-blue: #0d6efd;
@@ -234,6 +280,80 @@ body {
 
 .navbar-brand:hover {
   color: #1eb2a6 !important;
+<<<<<<< HEAD
+=======
+}
+
+.hero-wrap .slider-text .text {
+  position: relative;
+  z-index: 0;
+}
+.hero-wrap .slider-text .subheading {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 0;
+}
+.hero-wrap .slider-text h1,
+.hero-wrap .slider-text .h1 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.hero-wrap .slider-text h1 span,
+.hero-wrap .slider-text .h1 span {
+  color: #1eb2a6;
+}
+
+.hero-wrap .slider-text .breadcrumbs {
+  font-size: 14px;
+  margin-bottom: 10px;
+  z-index: 99;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+.hero-wrap .slider-text .breadcrumbs span {
+  color: rgba(255, 255, 255, 0.8);
+}
+.hero-wrap .slider-text .breadcrumbs span i {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+}
+.hero-wrap .slider-text .breadcrumbs span a {
+  color: rgba(255, 255, 255, 0.8);
+}
+.hero-wrap .slider-text .breadcrumbs span a:hover,
+.hero-wrap .slider-text .breadcrumbs span a:focus {
+  color: #1eb2a6;
+}
+.hero-wrap .slider-text .breadcrumbs span a:hover i,
+.hero-wrap .slider-text .breadcrumbs span a:focus i {
+  color: #1eb2a6;
+}
+.hero-wrap .slider-text .bread {
+  font-weight: 400;
+  color: #fff;
+  font-size: 70px;
+}
+
+.btn.btn-primary {
+  background: #1eb2a6 !important;
+  border: 1px solid #1eb2a6 !important;
+  color: #fff !important;
+}
+
+.btn.btn-white {
+  background: #fff !important;
+  border: 1px solid #fff !important;
+  color: #1eb2a6 !important;
+>>>>>>> 9df01121700f2ef2491044693ef6395d8d1be37c
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -358,6 +478,7 @@ body {
   min-height: 750px;
   color: rgba(255, 255, 255, 0.8);
   z-index: 3;
+<<<<<<< HEAD
   .img-fluid {
     max-width: 100%;
     height: auto;
@@ -475,6 +596,15 @@ body {
     cursor: pointer;
     font-size: 16px;
   }
+=======
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+>>>>>>> 9df01121700f2ef2491044693ef6395d8d1be37c
 }
 
 /* Pricing Section */
