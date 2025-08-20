@@ -18,3 +18,23 @@
 .fst-footer-section input::placeholder {
   color: #fff;
 }
+/* second */
+
+.navbar-brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.1;
+  span {
+    font-size: 0.8rem;
+    color: #1eb2a6;
+  }
+}
+.sco-footer-section {
+  background-color: #eeeeee;
+}
+.sco-footer-section ul li {
+  list-style: none;
+  background-color: #1eb2a6;
+  padding: 8px 10px;
+  border-radius: 50%;
+  color: #fff;
+}
