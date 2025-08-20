@@ -51,6 +51,9 @@ move from branch to another branch with out add or commit changes
 ** show in stash ===>
  1- git stash pop (remove from stash list)
  2- git stash apply (show data in stash + save stash list)
+ 3- show file stashed ==> git stash show
+ 4- delete all stashes ==> git stash clear
+ 5- delete specific stash ==> git stash drop id_stash
 
 ================================
 ------------ test
