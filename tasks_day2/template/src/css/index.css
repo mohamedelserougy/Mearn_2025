@@ -280,6 +280,8 @@ body {
 
 .navbar-brand:hover {
   color: #1eb2a6 !important;
+<<<<<<< HEAD
+=======
 }
 
 .hero-wrap .slider-text .text {
@@ -351,6 +353,7 @@ body {
   background: #fff !important;
   border: 1px solid #fff !important;
   color: #1eb2a6 !important;
+>>>>>>> 9df01121700f2ef2491044693ef6395d8d1be37c
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -475,6 +478,125 @@ body {
   min-height: 750px;
   color: rgba(255, 255, 255, 0.8);
   z-index: 3;
+<<<<<<< HEAD
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+
+  .newsletter {
+    background: #1db9aa;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* Make only this section have the background */
+  .stats-section {
+    background: url("./../imgs/bg_3.jpg.webp") center/cover no-repeat;
+    height: 250px; /* control height here */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  /* Stats layout */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat i {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .number {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .label {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }
+
+  .newsletter {
+    background: #1db9aa;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .newsletter-text h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .newsletter-text p {
+    margin-top: 8px;
+    font-size: 14px;
+    opacity: 0.9;
+  }
+
+  .newsletter-form {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 5px;
+  }
+
+  .newsletter-form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    width: 220px;
+  }
+
+  .newsletter-form input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .newsletter-form button {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .newsletter-form button {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+=======
 }
 .img-fluid {
   max-width: 100%;
@@ -482,114 +604,73 @@ body {
   border-radius: 12px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   object-fit: cover;
+>>>>>>> 9df01121700f2ef2491044693ef6395d8d1be37c
 }
 
-.newsletter {
-  background: #1db9aa;
-  color: white;
-  padding: 40px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-/* Make only this section have the background */
-.stats-section {
-  background: url("./../imgs/bg_3.jpg.webp") center/cover no-repeat;
-  height: 250px; /* control height here */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+/* Pricing Section */
+.pricing-section {
+  background: #fff;
 }
 
-/* Stats layout */
-.stats {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  max-width: 1000px;
-  text-align: center;
+.section-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #00bfa6;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 10px;
 }
 
-.stat i {
-  font-size: 40px;
+.pricing-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.plan-title {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666;
   margin-bottom: 10px;
 }
 
-.number {
-  font-size: 28px;
-  font-weight: bold;
+.price {
+  font-size: 36px;
+  font-weight: 700;
+  color: #00bfa6;
+  margin-bottom: 15px;
 }
 
-.label {
+.plan-desc {
   font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 5px;
+  color: #777;
+  margin-bottom: 20px;
 }
 
-.newsletter {
-  background: #1db9aa;
-  color: white;
-  padding: 40px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+.btn-custom {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00bfa6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
 }
 
-.newsletter-text h2 {
-  margin: 0;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.newsletter-text p {
-  margin-top: 8px;
-  font-size: 14px;
-  opacity: 0.9;
-}
-
-.newsletter-form {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid white;
-  padding: 5px;
-}
-
-.newsletter-form input {
-  background: transparent;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 5px;
-  font-size: 14px;
-  width: 220px;
-}
-
-.newsletter-form input::placeholder {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.newsletter-form button {
-  background: transparent;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.newsletter-form button {
-  background: transparent;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
+.btn-custom:hover {
+  background: #009e88;
 }

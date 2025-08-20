@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Academia - Free Bootstrap 5 Template by Colorlib</title>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -23,11 +24,13 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="./src/css/index.css" />
     <script defer src="./src/js/index.js"></script>
   </head>
 
   <body>
+    <!-- Top ribbon -->
     <div class="top-wrap">
       <div class="container">
         <div class="row">
@@ -65,29 +68,34 @@
                 <a
                   href="#"
                   class="d-flex align-items-center justify-content-center"
-                  ><span><i class="fa-brands fa-facebook-f"></i></span
-                ></a>
+                >
+                  <span><i class="fa-brands fa-facebook-f"></i></span>
+                </a>
                 <a
                   href="#"
                   class="d-flex align-items-center justify-content-center"
-                  ><span><i class="fa-brands fa-twitter"></i></span
-                ></a>
+                >
+                  <span><i class="fa-brands fa-twitter"></i></span>
+                </a>
                 <a
                   href="#"
                   class="d-flex align-items-center justify-content-center"
-                  ><span><i class="fa-brands fa-instagram"></i></span
-                ></a>
+                >
+                  <span><i class="fa-brands fa-instagram"></i></span>
+                </a>
                 <a
                   href="#"
                   class="d-flex align-items-center justify-content-center"
-                  ><span><i class="fa-brands fa-dribbble"></i></span
-                ></a>
+                >
+                  <span><i class="fa-brands fa-dribbble"></i></span>
+                </a>
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg ftco-navbar-light">
       <div class="container-xl">
@@ -131,6 +139,7 @@
       </div>
     </nav>
 
+    <!-- hero -->
     <section
       class="hero-wrap"
       style="background-image: url('src/images/bg_1.jpg')"
@@ -140,7 +149,7 @@
         <div class="row no-gutters slider-text align-items-center">
           <div class="col-lg-5">
             <div
-              class="text mt-5 pt-5 aos-init aos-animate"
+              class="text mt-5 pt-5"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1000"
@@ -152,23 +161,24 @@
                 Vokalia and Consonantia, there live the blind texts.
               </p>
               <p>
-                <a href="#" class="btn btn-primary p-4 py-3"
-                  >Get Started Now!
-                  <i class="fa-solid fa-arrow-right" style="color: white"></i
-                ></a>
-                <a href="#" class="btn btn-white p-4 py-3"
-                  >View Course <i class="fa-solid fa-arrow-right"></i
-                ></a>
+                <a href="#" class="btn btn-primary p-4 py-3">
+                  Get Started Now!
+                  <i class="fa-solid fa-arrow-right" style="color: #fff"></i>
+                </a>
+                <a href="#" class="btn btn-white p-4 py-3">
+                  View Course <i class="fa-solid fa-arrow-right"></i>
+                </a>
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Benefits -->
     <section class="py-5">
       <div class="container">
         <div class="row align-items-center">
-          <!-- Left: Image -->
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
             <img
               src="src/imgs/imgi_2_about.jpg"
@@ -176,13 +186,10 @@
               class="img-fluid rounded"
             />
           </div>
-
-          <!-- Right: Content -->
           <div class="col-lg-6">
             <p class="text-uppercase text-primary fw-bold">Learn Anything</p>
             <h2 class="mb-4">Benefits About Online<br />Learning Expertise</h2>
 
-            <!-- Box 1 -->
             <div class="d-flex mb-3 p-3 bg-light rounded shadow-sm">
               <div class="me-3 text-primary fs-2">
                 <i class="fa-solid fa-book-open"></i>
@@ -196,7 +203,6 @@
               </div>
             </div>
 
-            <!-- Box 2 -->
             <div class="d-flex mb-3 p-3 bg-light rounded shadow-sm">
               <div class="me-3 text-primary fs-2">
                 <i class="fa-solid fa-certificate"></i>
@@ -210,7 +216,6 @@
               </div>
             </div>
 
-            <!-- Box 3 -->
             <div class="d-flex p-3 bg-light rounded shadow-sm">
               <div class="me-3 text-primary fs-2">
                 <i class="fa-solid fa-user-graduate"></i>
@@ -227,6 +232,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Stats -->
     <section class="stats-section">
       <div class="stats">
         <div class="stat">
@@ -268,28 +275,76 @@
       </div>
     </section>
 
-    <!--NewsLetter section-->
-
+    <!-- Newsletter (deduped) -->
     <section class="newsletter">
       <div class="newsletter-text">
         <h2>Newsletter - Stay tuned and get the latest update</h2>
         <p>Far far away, behind the word mountains</p>
       </div>
-      <section class="newsletter">
-        <div class="newsletter-text">
-          <h2>Newsletter - Stay tuned and get the latest update</h2>
-          <p>Far far away, behind the word mountains</p>
-        </div>
-
-        <form class="newsletter-form">
-          <input type="email" placeholder="Enter email address" required />
-          <button type="submit"><i class="bi bi-send"></i></button>
-        </form>
-      </section>
       <form class="newsletter-form">
         <input type="email" placeholder="Enter email address" required />
         <button type="submit"><i class="bi bi-send"></i></button>
       </form>
+    </section>
+
+    <!-- Pricing Section (your part) -->
+    <section id="pricing" class="pricing-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-subtitle">Our Pricing</span>
+          <h2 class="section-title">Pricing & Packages</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="pricing-card text-center p-4">
+              <h5 class="plan-title">Basic Plan</h5>
+              <h2 class="price">$49K</h2>
+              <p class="plan-desc">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="#" class="btn btn-custom">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="pricing-card text-center p-4">
+              <h5 class="plan-title">Beginner Plan</h5>
+              <h2 class="price">$79K</h2>
+              <p class="plan-desc">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="#" class="btn btn-custom">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="pricing-card text-center p-4">
+              <h5 class="plan-title">Premium Plan</h5>
+              <h2 class="price">$109K</h2>
+              <p class="plan-desc">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="#" class="btn btn-custom">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="pricing-card text-center p-4">
+              <h5 class="plan-title">Ultimate Plan</h5>
+              <h2 class="price">$149K</h2>
+              <p class="plan-desc">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="#" class="btn btn-custom">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
