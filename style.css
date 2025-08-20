@@ -1,0 +1,22 @@
+li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+}
+img{
+    width: 70%;
+    height: auto;
+}
+button{
+    background-color: rgb(31, 113, 86);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
