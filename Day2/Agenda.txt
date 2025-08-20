@@ -20,6 +20,16 @@
 * if conflict ==> solve conflict (add , commit)
 * if no conflicts ==> make what u want
 
+=====================================>
+Delete branch
+***  switch to another branch 
+1- local
+***  switch to another branch
+*** git branch -D branchName
+2- remote 
+***  switch to another branch
+*** git push origin -d branchName
+
 
 =====> pull request
 ===> stash ===> 
