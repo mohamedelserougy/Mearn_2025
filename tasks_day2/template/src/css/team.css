@@ -10,8 +10,43 @@ section.cards {
     flex-wrap: wrap;
     .card {
         width: 20%;
+        height: fit-content;
+        position: relative;
+        .icons {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 5rem 0 0 10px;
+            i {
+                opacity: 0;
+                transition: all ease-in-out .4s;
+                translate: -20px;
+                padding: 10px;
+                background: #000000;
+                width: auto;
+                border-radius: 50%;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    background-color: aqua;
+                }
+            }
+        }
+        &:hover .content{
+            background-color: aqua;
+        }
+        &:hover .icons i{
+            opacity: 1;
+            translate: 0;
+        }
         .content {
-            padding: 20px;
+            padding: 20px 10px;
+            text-align: center;
+            transition: all ease-in-out .4s;
+            h3 {
+                font-size: 18px;
+            }
         }
         img {
             width: 100%;
