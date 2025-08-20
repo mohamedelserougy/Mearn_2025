@@ -5,3 +5,30 @@
         span{
             color:  #1eb2a6; ;
         }
+.price-Card { 
+      font-size: 32px;
+      font-weight: bold;
+      color: teal;
+      margin: 15px 0;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 1px;
+    }
+.card-section:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.card-section{
+    opacity: 0;
+  transform: translateY(50px);
+    animation: fadeUp 1.5s ease forwards;
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;          
+    transform: translateY(0); 
+  }
+}
+.card-animation:nth-child(1) .card-section { animation-delay: 0.5s; }
+.card-animation:nth-child(2) .card-section{ animation-delay: 1s;   }
+.card-animation:nth-child(3) .card-section { animation-delay: 1.5s; }
+.card-animation:nth-child(4) .card-section{ animation-delay: 2.6s; }
