@@ -788,8 +788,6 @@ body {
 
 /* end of Carousel  */
 
-
-
 /******** the part of card **************/
 
 .blog-section {
@@ -804,7 +802,7 @@ body {
 
 
 .blog-section .subtitle {
-  color: #00a78e; 
+  color: #00a78e; /* أخضر فاتح */
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 10px;
@@ -888,4 +886,3 @@ body {
   line-height: 1.5;
 }
 
-/************************end of card****************************/
