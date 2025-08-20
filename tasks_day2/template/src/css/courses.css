@@ -6,7 +6,9 @@ button {
   color: #1eb2a6;
   text-decoration: none;
 }
-
+span{
+  color: #1eb2a6;
+}
 h2,
 .h2 {
   line-height: 1.5;
@@ -653,4 +655,99 @@ h2,
   opacity: .3;
   background: #111111;
   z-index: -1;
+}
+.course-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #20b2aa, #48d1cc);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.course-icon i {
+  font-size: 32px;
+  color: white;
+}
+
+.course-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.stars {
+  color: #20b2aa;
+  font-size: 14px;
+}
+
+.rating-text {
+  color: #20b2aa;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.instructor-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6b6b, #feca57);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.instructor-name {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.course-stats {
+  color: #20b2aa;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.price-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #20b2aa;
+}
+
+.enroll-btn {
+  background: transparent;
+  border: 2px solid #20b2aa;
+  color: #20b2aa;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.course-card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.pagination .page-link {
+  color: #20b2aa;
+  border-color: #20b2aa;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #20b2aa;
+  border-color: #20b2aa;
+}
+.w-85 {
+  width: 85%;
 }

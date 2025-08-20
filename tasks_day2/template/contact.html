@@ -26,5 +26,96 @@
     <link rel="stylesheet" href="./src/css/contact.css" />
     <script defer src="./src/js/contact.js"></script>
   </head>
-  <body></body>
+  <body class="bg-light">
+    <section class="contanct-section bg-light">
+      <div class="container overflow-hidden">
+        <div class="row">
+          <div class="col">
+            <div class="p-0">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6045.721454402323!2d-74.00613890642093!3d40.74308999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bb65ffb4b7%3A0xfb6f9cef91401b93!2sEvents%20Coverage%20and%20Photography!5e0!3m2!1sen!2seg!4v1755691796957!5m2!1sen!2seg"
+                width="600"
+                height="700"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col bg-white">
+            <div class="contact-wrap w-100 p-md-5 p-4">
+              <h3>Contact us</h3>
+              <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+              <div class="row mb-4">
+                <div class="col-md-4">
+                  <div class="dbox w-100 d-flex align-items-start">
+                    <div class="text">
+                      <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="dbox w-100 d-flex align-items-start">
+                    <div class="text">
+                      <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="dbox w-100 d-flex align-items-start">
+                    <div class="text">
+                      <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <form id="contactForm" name="contactForm" class="contactForm">
+                <div class="row g-2">
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control rounded-0" name="name" id="name" placeholder="Name" />
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="email" class="form-control rounded-0" name="email" id="email" placeholder="Email" />
+                  </div>
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control rounded-0"
+                      name="subject"
+                      id="subject"
+                      placeholder="Subject"
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <textarea
+                      name="message"
+                      class="form-control rounded-0"
+                      id="message"
+                      cols="30"
+                      rows="4"
+                      placeholder="Create a message here"
+                    ></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary rounded-1" />
+                    <div class="submitting"></div>
+                  </div>
+                </div>
+              </form>
+              <div class="w-100 social-media mt-5">
+                <h3>Follow us here</h3>
+                <p>
+                  <a href="#">Facebook</a>
+                  <a href="#">Twitter</a>
+                  <a href="#">Instagram</a>
+                  <a href="#">Dribbble</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
