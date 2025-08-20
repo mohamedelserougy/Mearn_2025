@@ -1,0 +1,17 @@
+========> Branches
+*  create branch ==> git branch branchName
+* list branches ====> git branch
+* move (switch) branch ==> git switch branchName
+
+=============> Merge (local)
+
+1- switch branch that you want to merge with master
+* git switch feature/navbar-links
+
+2- merge ==> 
+* git merge master
+
+=====> pull request
+===> stash ===> 
+===> organization   ===> self study
+===> fork   ===> self study
