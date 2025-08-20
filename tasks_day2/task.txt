@@ -1,0 +1,32 @@
+https://preview.colorlib.com/theme/academia/index.html
+================> Home  
+1	Ahmed Hatem Amin Omran  =========> header + pg + login page (form) 
+2	Ahmed Ibrahim Abdelmaksoud Zidan ==> nav links + img header + register(form)
+3	Ahmed Magdy Hussin Seada  ==> list  ==> login page (img) 
+4	Ahmed Olwy Ali Gharib  ==> img + header  ++ register(img)
+5	Fady Dieaa Mohamed Shapan  ==> section
+6	Hazem Ahmed Abdelsamei Khattab  ==> slider
+7	Ibrahim Samir Ibrahim Jibril   ==> cards
+8	Ibrahim Yasser Ibrahim Elkilany ==> cursola
+9	Magdy Atef Ayoub Farag   ==> cards  
+10	Mahmoud Samir Hamed Salman  ==> price
+11	Mahmoud Soliman Yousuf Mohamed  ==> mail 
+12	Mariem Mohamed Atef Ahmed Elgendy ==> footer
+
+====================> All Courses
+13	Mohamad Hesham Ali Shalaby   ===> cards 
+14	Mohamed Gamal Mohamed Zayan  ==> section 1
+15	Mohamed Hany Mohamed Abouzaid  ==> online courses
+16	Mohamed Mamdouh Abaas Elghonemy   ==> mail
+17	Mohamed Salah Hamouda Elserougy  ==> footer
+
+================>  contact page
+18	Mohammed Ahmed Elsayed Elsersawy  ==> contact form 
+19	Omnia Ehab Ragab Alduwaik ===> pricing
+20	Ruba Ismail Abd Elhaliem Sliem  ==> drop down list
+21	Said Magdy Said Elamy  ==> mail + footer
+==============> team 
+22	Sefein Kameil Zaky Boles ==> header + footer
+23	Yousef Shaaban Saleh Attia ==>imgs
+24	Youssef Nasser Salah Gadow  ==> mail + backgraound
+25	Ziad Eldesoky Elazizi Soliman ==> all page  (journal)
