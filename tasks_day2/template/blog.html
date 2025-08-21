@@ -1,30 +1,609 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Academia - Free Bootstrap 5 Template by Colorlib</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./src/css/blog.css" />
-    <script defer src="./src/js/blog.js"></script>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia - Full Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Global Styles */
+        :root {
+            --primary-color: #20c997;
+            --dark-text: #333;
+            --light-text: #555;
+            --body-text: #999999;
+            --background-light: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+
+        body {
+            background-color: #fff; /* Main background is white in the template */
+            font-family: 'Poppins', sans-serif, system-ui;
+            margin: 0;
+            color: var(--body-text);
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1140px; /* Adjusted to match template */
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            color: #000; /* Black color for headings */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* ==================== Header Styles ==================== */
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .top-bar {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+            display: none;
+        }
+        @media (min-width: 992px) {
+            .top-bar { display: block; }
+        }
+
+        .top-bar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+        }
+
+        .logo h2 {
+            margin: 0;
+            font-size: 24px;
+            color: var(--dark-text);
+            font-weight: 700;
+        }
+
+        .logo span {
+            font-size: 10px;
+            color: #999;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .header-info {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-item .icon {
+            font-size: 24px;
+            color: var(--primary-color);
+        }
+        
+        .info-item .text span {
+            display: block;
+            line-height: 1.4;
+        }
+        
+        .info-item .text span:first-child {
+            font-weight: 600;
+            color: var(--dark-text);
+        }
+
+        .social-icons-header a {
+            color: #999;
+            margin: 0 5px;
+            font-size: 16px;
+        }
+        .social-icons-header a:hover {
+            color: var(--primary-color);
+        }
+
+        .main-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .nav-links a {
+            color: var(--dark-text);
+            margin: 0 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid transparent;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary-color);
+            border-bottom-color: var(--primary-color);
+        }
+
+        .cta-button {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 12px 25px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #1baa80;
+        }
+        
+        /* ==================== Hero Section Styles ==================== */
+        .hero-section {
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://preview.colorlib.com/theme/academia/images/image_1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .breadcrumb {
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        
+        .hero-title {
+            font-size: 72px;
+            font-weight: 700;
+            margin: 10px 0 0 0;
+            color: #fff;
+        }
+        
+        /* ==================== Blog Section Styles ==================== */
+        .blog-section {
+            padding: 80px 0;
+            background-color: var(--background-light); /* Light gray for this section */
+        }
+        
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .blog-card {
+            background-color: #ffffff;
+            border: 1px solid #f0f0f0;
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .blog-card:hover {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card-meta {
+            margin-bottom: 15px;
+            font-size: 13px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        .card-meta span {
+            margin-right: 15px;
+        }
+
+        .card-meta a {
+            color: var(--primary-color);
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 15px 0;
+        }
+        
+        .card-title a {
+             color: var(--dark-text);
+        }
+
+        /* Pagination Styles */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .pagination li {
+            margin: 0 5px;
+        }
+
+        .pagination a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            color: #888;
+            background-color: #fff;
+            border: 1px solid var(--border-color);
+        }
+        
+        .pagination li:first-child a, .pagination li:last-child a {
+            background-color: transparent;
+            border: none;
+        }
+
+        .pagination li.active a,
+        .pagination a:hover {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            border-color: var(--primary-color);
+        }
+        
+        /* ==================== Footer Styles (Corrected Colors) ==================== */
+        
+        /* Newsletter Section */
+        .newsletter-section {
+            background: var(--primary-color);
+            padding: 60px 0;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .newsletter-section .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .newsletter-text h3 {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 0 10px 0;
+        }
+
+        .newsletter-form {
+            position: relative;
+            min-width: 400px;
+        }
+        
+        .newsletter-form input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid rgba(255,255,255,0.7);
+            color: #fff;
+            padding: 10px 30px 10px 0;
+            font-size: 16px;
+        }
+        
+        .newsletter-form input::placeholder {
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .newsletter-form input:focus {
+            outline: none;
+            border-bottom-color: #fff;
+        }
+
+        .newsletter-form button {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        /* Main Footer */
+        .main-footer {
+            background: #fff; /* CORRECTED: White Background */
+            color: var(--body-text); /* CORRECTED: Gray text */
+            padding: 80px 0 0 0; /* Padding top only */
+            font-size: 15px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 2fr 2fr;
+            gap: 40px;
+        }
+
+        .footer-col h3 {
+            color: #000; /* CORRECTED: Black heading */
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .footer-col .logo { margin-bottom: 20px; }
+        .footer-col .logo h2 { color: #000; } /* CORRECTED: Black logo text */
+
+        .footer-social-icons a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--primary-color); /* CORRECTED: Teal Background */
+            color: #fff; /* CORRECTED: White Icon */
+            margin-right: 5px;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-col ul li a {
+            color: var(--body-text); /* CORRECTED: Gray link color */
+        }
+        .footer-col ul li a:hover {
+            color: var(--primary-color); /* Teal hover color */
+        }
+        
+        .recent-post-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .recent-post-item img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 5px; /* slight radius */
+        }
+        .recent-post-item-info {
+            font-size: 14px;
+        }
+        .recent-post-item-info span {
+            color: #ccc; /* CORRECTED: Lighter gray for meta */
+            margin-right: 10px;
+        }
+        .recent-post-item-info a {
+            color: #000; /* CORRECTED: Black for post title */
+            font-weight: 500;
+            line-height: 1.5;
+        }
+         .recent-post-item-info a:hover {
+            color: var(--primary-color);
+        }
+
+        .contact-info-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            align-items: flex-start;
+        }
+        .contact-info-item .icon {
+            color: var(--primary-color); /* CORRECTED: Teal icon */
+            padding-top: 5px;
+        }
+
+        /* Copyright Section */
+        .copyright-section {
+            width: 100%;
+            margin-top: 60px;
+            padding: 30px 0;
+            border-top: 1px solid var(--border-color); /* CORRECTED: Border top */
+            text-align: center;
+            font-size: 14px;
+            color: var(--body-text);
+        }
+        .copyright-section a {
+            color: var(--primary-color);
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="logo">
+                    <h2>ACADEMIA</h2>
+                    <span>ONLINE EDUCATION & LEARNING</span>
+                </div>
+                <div class="header-info">
+                    <div class="info-item">
+                        <div class="icon"><i class="far fa-clock"></i></div>
+                        <div class="text">
+                            <span>Monday - Friday</span>
+                            <span>8:00AM - 8:00PM</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-phone-volume"></i></div>
+                        <div class="text">
+                            <span>Call Us</span>
+                            <span>+2 892 9929 210</span>
+                        </div>
+                    </div>
+                    <div class="social-icons-header">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-nav-wrapper">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="courses.html">All Courses</a>
+                    <a href="about.html">About</a>
+                    <a href="team.html">Team</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="#" class="active">Journal</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="#" class="cta-button">Get Certificate</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="hero-section">
+        <span class="breadcrumb">HOME > BLOG</span>
+        <h1 class="hero-title">Blog Posts</h1>
+    </section>
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-grid">
+                <div class="blog-card"> <img src="https://preview.colorlib.com/theme/academia/images/image_1.jpg" alt="Blog Post Image"> <div class="card-content"> <div class="card-meta"> <span>ADMIN</span> <span>JAN. 18, 2021</span> <a href="#">3 COMMENTS</a> </div> <h3 class="card-title"> <a href="#">Build your Dream Software & Engineering Career</a> </h3> <p class="card-excerpt"> A small river named Duden flows by their place and supplies it with the necessary regelialia. </p> </div> </div>
+                <div class="blog-card"> <img src="https://preview.colorlib.com/theme/academia/images/image_2.jpg.webp" alt="Blog Post Image"> <div class="card-content"> <div class="card-meta"> <span>ADMIN</span> <span>JAN. 18, 2021</span> <a href="#">3 COMMENTS</a> </div> <h3 class="card-title"> <a href="#">Build your Dream Software & Engineering Career</a> </h3> <p class="card-excerpt"> A small river named Duden flows by their place and supplies it with the necessary regelialia. </p> </div> </div>
+                <div class="blog-card"> <img src="https://preview.colorlib.com/theme/academia/images/image_3.jpg" alt="Blog Post Image"> <div class="card-content"> <div class="card-meta"> <span>ADMIN</span> <span>JAN. 18, 2021</span> <a href="#">3 COMMENTS</a> </div> <h3 class="card-title"> <a href="#">Build your Dream Software & Engineering Career</a> </h3> <p class="card-excerpt"> A small river named Duden flows by their place and supplies it with the necessary regelialia. </p> </div> </div>
+                <div class="blog-card"> <img src="https://preview.colorlib.com/theme/academia/images/image_4.jpg" alt="Blog Post Image"> <div class="card-content"> <div class="card-meta"> <span>ADMIN</span> <span>JAN. 18, 2021</span> <a href="#">3 COMMENTS</a> </div> <h3 class="card-title"> <a href="#">Build your Dream Software & Engineering Career</a> </h3> <p class="card-excerpt"> A small river named Duden flows by their place and supplies it with the necessary regelialia. </p> </div> </div>
+                <div class="blog-card"> <img src="https://preview.colorlib.com/theme/academia/images/image_5.jpg" alt="Blog Post Image"> <div class="card-content"> <div class="card-meta"> <span>ADMIN</span> <span>JAN. 18, 2021</span> <a href="#">3 COMMENTS</a> </div> <h3 class="card-title"> <a href="#">Build your Dream Software & Engineering Career</a> </h3> <p class="card-excerpt"> A small river named Duden flows by their place and supplies it with the necessary regelialia. </p> </div> </div>
+                <div class="blog-card"> <img src="	https://preview.colorlib.com/theme/academia/images/image_6.jpg" alt="Blog Post Image"> <div class="card-content"> <div class="card-meta"> <span>ADMIN</span> <span>JAN. 18, 2021</span> <a href="#">3 COMMENTS</a> </div> <h3 class="card-title"> <a href="#">Build your Dream Software & Engineering Career</a> </h3> <p class="card-excerpt"> A small river named Duden flows by their place and supplies it with the necessary regelialia. </p> </div> </div>
+            </div>
+            <ul class="pagination">
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-text">
+                <h3>Newsletter - Stay tune and get the latest update</h3>
+                <p>Far far away, behind the word mountains</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter email address">
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <h2>ACADEMIA</h2>
+                        <span>ONLINE EDUCATION & LEARNING</span>
+                    </div>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <div class="footer-social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Feedbacks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Recent Posts</h3>
+                    <div class="recent-post-item">
+                        <img src="https://preview.colorlib.com/theme/academia/images/image_1.jpg" alt="post">
+                        <div class="recent-post-item-info">
+                            <span><i class="fas fa-calendar-alt"></i> Jan. 18, 2021</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                            <a href="#">Creativity and Inspiration</a>
+                        </div>
+                    </div>
+                    <div class="recent-post-item">
+                         <img src="https://preview.colorlib.com/theme/academia/images/image_2.jpg" alt="post">
+                        <div class="recent-post-item-info">
+                            <span><i class="fas fa-calendar-alt"></i> Jan. 18, 2021</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                            <a href="#">Creativity and Inspiration</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Have a Questions?</h3>
+                    <ul>
+                        <li class="contact-info-item">
+                            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+                        </li>
+                        <li class="contact-info-item">
+                            <span class="icon"><i class="fas fa-phone"></i></span>
+                            <span>+2 392 3929 210</span>
+                        </li>
+                        <li class="contact-info-item">
+                            <span class="icon"><i class="fas fa-envelope"></i></span>
+                            <span>info@yourdomain.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-section">
+                <p>Copyright ©2025 All rights reserved | This template is made with <i class="fas fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
 </html>
