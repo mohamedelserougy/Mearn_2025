@@ -2,7 +2,7 @@
 ---
 ## Update Fork From original branch (upstream)
 - Using GitHub `Sync Fork` Button in Fork page to sync directly as shown the image below. <br /> 
-![Sync fork](Sync_fork.png)
+![Sync fork](./Sync_fork.png)
 
 - Create the GitHub Actions Workflow File to sync automaticlly <br /> 
     [Click Here](https://github.com/marketplace/actions/fork-sync) for code and more details. <br /> 
@@ -28,7 +28,17 @@
     5. Push to Your Fork: Now, push the merged changes from your local repository to your fork on GitHub. <br /> 
     `git push origin master` <br /> 
 
-    ---
-
+    --- 
 
 ## Update upstream from fork
+- Open a Pull Request: <br /> 
+    1. Open Pull Request
+        - Go to fork's GitHub page. <br /> 
+            Open Pull Request from the `Contribute` button shown below <br /> 
+        ![Contribute](./contribute.png)
+        - Go to Pull Requests Tab from fork page <br /> 
+    2. Review pull request branches <br /> 
+        > In my case I do the pull request to upstream new branch named `doc/fork-i-samir` as shown below
+        ![Pull Request](./pull_request.png)
+    3. After resolving any conflicts you can push to `master` branch
+    > **PS.** Note that you can make the pull request in step 2 to `master` branch directly or any other branch
