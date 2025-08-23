@@ -1,5 +1,6 @@
 # Fork Task
 ---
+
 ## Update Fork From original branch (upstream)
 - Using GitHub `Sync Fork` Button in Fork page to sync directly as shown the image below. <br /> 
 ![Sync fork](./Sync_fork.png)
